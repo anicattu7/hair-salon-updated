@@ -7,3 +7,9 @@
     color: black;
     font-size:10px;
 }
+
+.carousel-inner{
+    height:700px;
+    width:60%;
+    margin:auto;
+}
