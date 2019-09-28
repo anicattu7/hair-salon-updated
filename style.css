@@ -14,10 +14,13 @@
     margin:auto;
 }
 
-.appointment{
+address.contact{
+    font-size:10px;
+    margin-left:2em;
 }
-.form{
-    width:200px;
-    margin: 0 auto;
-    height:500px;
+
+address.navigation{
+    font-size:10px;
+    margin-left:2em;
+    color:black;
 }
