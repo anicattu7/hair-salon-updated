@@ -24,3 +24,12 @@ address.navigation{
     margin-left:2em;
     color:black;
 }
+
+.table-dark{
+    background-color:white;
+    color:black;
+}
+
+.font-control{
+    border: 2px solid black;
+}
