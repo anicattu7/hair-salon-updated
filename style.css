@@ -41,3 +41,9 @@ hr{
         margin-top: 5%;
         margin-bottom: 5%;
 }
+
+img.styling{
+    height: 100px;
+    width: 100px;
+    margin:0 0;
+}
