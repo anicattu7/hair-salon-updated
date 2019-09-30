@@ -1,305 +1,354 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <title>Hair Salon</title>
-  </head>
-  <body>
+</head>
+<body>
 
 <!--navigation bar-->
 
 <nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand">Hairdresser Hans</a>
+    <a class="navbar-brand">Hairdresser Hans</a>
     <form class="form-inline">
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#OS">Our  Services</a>
-        </li><li class="nav-item">
-            <a class="nav-link" href="#MAA">Make an appointment</a>
-          </li>
-         <li class="nav-item">
-            <a class="nav-link" href="#FAQ">FAQ</a>
-         </li>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="#OS">Our Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#MAA">Make an appointment</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#FAQ">FAQ</a>
+            </li>
 
-<!--About us-->
-          <li class="nav-item">
-            <a class="nav-link" href="#AU" data-toggle="modal" data-target="#exampleModalLong">About us</a>
+            <!--About us-->
+            <li class="nav-item">
+                <a class="nav-link" data-target="#exampleModalLong" data-toggle="modal" href="#AU">About us</a>
 
 
-<!-- Modal -->
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">About us</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p>At Hans Hairsalon we are passionate about meeting the unique needs of our clients and creating a style that highlights their natural beauty.
-            We create a perfect style by listening to their clients' desires, whether they are a business professional or someone who wants to sport the
-              trendiest styles.</p>
-            <p>We pride ourselves in keeping up with our education and therefore, we always bring a fresh prespective to our work. Our atmosphere is comfortable and professional...
-            a taste of Vienna and Austria.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!-- Modal -->
+                <div aria-hidden="true" aria-labelledby="exampleModalLongTitle" class="modal fade" id="exampleModalLong"
+                     role="dialog" tabindex="-1">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLongTitle">About us</h5>
+                                <button aria-label="Close" class="close" data-dismiss="modal" type="button">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>At Hans Hairsalon we are passionate about meeting the unique needs of our clients and
+                                    creating a style that highlights their natural beauty.
+                                    We create a perfect style by listening to their clients' desires, whether they are a
+                                    business professional or someone who wants to sport the
+                                    trendiest styles.</p>
+                                <p>We pride ourselves in keeping up with our education and therefore, we always bring a
+                                    fresh prespective to our work. Our atmosphere is comfortable and professional...
+                                    a taste of Vienna and Austria.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-secondary" data-dismiss="modal" type="button">Close</button>
 
-          </div>
-        </div>
-      </div>
-    </div>
-          </li>
-          <li class="nav-item">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-item">
+                <input aria-label="Search" class="form-control mr-sm-2" placeholder="Search" type="search">
+            </li>
         </ul>
-      </form>
-    </nav>
+    </form>
+</nav>
 <br><br>
 
 <!--carousel-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active" >
-      <img src="pic1.jpg" class="d-block w-100" >
+<div class="carousel slide" data-ride="carousel" id="carouselExampleIndicators">
+    <ol class="carousel-indicators">
+        <li class="active" data-slide-to="0" data-target="#carouselExampleIndicators"></li>
+        <li data-slide-to="1" data-target="#carouselExampleIndicators"></li>
+        <li data-slide-to="2" data-target="#carouselExampleIndicators"></li>
+        <li data-slide-to="3" data-target="#carouselExampleIndicators"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="d-block w-100" src="pic1.jpg">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="pic2.jpg">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="pic3.jpg">
+        </div>
+        <div class="carousel-item">
+            <img class="d-block w-100" src="pic4.jpg">
+        </div>
     </div>
-    <div class="carousel-item">
-      <img src="pic2.jpg" class="d-block w-100" >
-    </div>
-    <div class="carousel-item">
-      <img src="pic3.jpg" class="d-block w-100" >
-    </div>
-    <div class="carousel-item">
-      <img src="pic4.jpg" class="d-block w-100" >
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <a class="carousel-control-prev" data-slide="prev" href="#carouselExampleIndicators" role="button">
+        <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" data-slide="next" href="#carouselExampleIndicators" role="button">
+        <span aria-hidden="true" class="carousel-control-next-icon"></span>
+        <span class="sr-only">Next</span>
+    </a>
 </div>
 <hr>
 
 
 <!--Our services-->
-<h4 id="OS"><i><center>Our Services</center></i></h4><br>
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-                <div class="card border-secondary mb-3" style="max-width: 18rem;">
-          <div class="card-header">Styling</div>
-          <div class="card-body text-secondary">
-            <img src="pic5.jpg" class="styling">
-          </div>
+
+<h4 id="OS"><i>
+    <center>Our Services</center>
+</i></h4>
+<br>
+<div class="container mt-4">
+    <div class="row">
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Styling</h5>
+                </div>
+                <img alt="..." class="card-img-top" src="pic5.jpg">
+
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Coloring</h5>
+                </div>
+                <img alt="..." class="card-img-top" src="pic6.jpg">
+
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Haircuts</h5>
+                </div>
+                <img alt="..." class="card-img-top" src="pic7.jpeg">
+
+            </div>
+        </div>
     </div>
-    <div class="col-sm">
-        <div class="card border-secondary mb-3" style="max-width: 18rem;">
-          <div class="card-header">Colouring</div>
-          <div class="card-body text-secondary">
-            <img src="pic6.jpg" class="styling">
-          </div>
-    </div>
-    </div>
-    <div class="col-sm">
-        <div class="card border-secondary mb-3" style="max-width: 18rem;">
-          <div class="card-header">Haircuts</div>
-          <div class="card-body text-secondary">
-            <img src="pic7.jpeg" class="styling">
-          </div>
-    </div>
-    </div>
-  </div>
 </div>
 <hr>
 
 
 <!--Make an appointment-->
-    <h4 id="MAA"><i><center>Make an Appointment</center></i></h4><br>
+<h4 id="MAA"><i>
+    <center>Make an Appointment</center>
+</i></h4>
+<br>
 <div class="container">
-  <div class="row">
-    <div class="col-sm">
-        <div class="appointment" >
-          <div class="form">
-                <form>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="First and Last name">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Phone number">
-                    </div>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Date">
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Other info (haircut wishes etc.)"></textarea>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                        <label class="form-check-label" for="defaultCheck1">
-                            I agree that Hans is the best friseur.
-                        </label>
-                    </div><br>
-                    <center><button type="button" class="btn btn-secondary">Send</button></center>
+    <div class="row">
+        <div class="col-sm">
+            <div class="appointment">
+                <div class="form">
+                    <form>
+                        <div class="form-group">
+                            <input class="form-control" id="formGroupExampleInput" placeholder="First and Last name"
+                                   type="text">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="formGroupExampleInput2" placeholder="Phone number"
+                                   type="text">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control" id="formGroupExampleInput2" placeholder="Date" type="text">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Other info (haircut wishes etc.)"
+                                      rows="3"></textarea>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" id="defaultCheck1" type="checkbox" value="">
+                            <label class="form-check-label" for="defaultCheck1">
+                                I agree that Hans is the best friseur.
+                            </label>
+                        </div>
+                        <br>
+                        <center>
+                            <button class="btn btn-secondary" type="button">Send</button>
+                        </center>
 
-                </form>
-          </div></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="table">
+                <table class="table table-sm">
+                    <thead class="thead-light">
+                    <tr>
+                        <th scope="col">Day</th>
+                        <th scope="col">Working Hours</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">Monday</th>
+                        <td>8:00-16:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tuesday</th>
+                        <td>10:00-18:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Wednesday</th>
+                        <td>8:00-16:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Thursday</th>
+                        <td>8:00-16:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Friday</th>
+                        <td>8:00-16:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Saturday</th>
+                        <td>8:00-16:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sunday</th>
+                        <td>8:00-12:00</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <small class="form-text text-muted">
+                * We don't work on holidays
+            </small>
+        </div>
     </div>
- <div class="col-sm">
-  <div class="table">
-      <table class="table table-sm">
-  <thead class="thead-light">
-    <tr>
-      <th scope="col">Day</th>
-      <th scope="col">Working Hours</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Monday</th>
-      <td>8:00-16:00</td>
-    </tr>
-    <tr>
-      <th scope="row">Tuesday</th>
-      <td>10:00-18:00</td>
-    </tr>
-    <tr>
-      <th scope="row">Wednesday</th>
-      <td>8:00-16:00</td>
-    </tr>
-  <tr>
-      <th scope="row">Thursday</th>
-      <td>8:00-16:00</td>
-    </tr>
-  <tr>
-      <th scope="row">Friday</th>
-      <td>8:00-16:00</td>
-    </tr>
-  <tr>
-      <th scope="row">Saturday</th>
-      <td>8:00-16:00</td>
-    </tr>
-  <tr>
-      <th scope="row">Sunday</th>
-      <td>8:00-12:00</td>
-    </tr>
-  </tbody>
-</table>
-  </div>
-     <small  class="form-text text-muted">
-* We don't work on holidays
-</small>
-</div>
-  </div>
 </div>
 <br>
 
 <hr>
 
 <!--FAQ-->
-    <h4 id="FAQ"><i><center>FAQ (frequently asked questions)</center></i></h4><br>
+<h4 id="FAQ"><i>
+    <center>FAQ (frequently asked questions)</center>
+</i></h4>
+<br>
 <div class="container">
-  <div class="row">
-    <div class="col-sm">
-<div class="accordion" id="accordionExample">
-  <div class="card">
-    <div class="card-header" id="headingOne">
-      <h2 class="mb-0">
-        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Do you have gift certificates?
-        </button>
-      </h2>
-    </div>
+    <div class="row">
+        <div class="col-sm">
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button aria-controls="collapseOne" aria-expanded="true" class="btn btn-link" data-target="#collapseOne"
+                                    data-toggle="collapse" type="button">
+                                Do you have gift certificates?
+                            </button>
+                        </h2>
+                    </div>
 
-    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-      <div class="card-body">
-        Gift certificates are available for purchase in the salon or over the phone. If you purchase a gift certificate over the phone, we can either mail it to your luck recipient or simply keep in our files. Elixir salon gift certificates are not redeemable for cash or refundable.
-      </div>
+                    <div aria-labelledby="headingOne" class="collapse show" data-parent="#accordionExample"
+                         id="collapseOne">
+                        <div class="card-body">
+                            Gift certificates are available for purchase in the salon or over the phone. If you purchase
+                            a gift certificate over the phone, we can either mail it to your luck recipient or simply
+                            keep in our files. Elixir salon gift certificates are not redeemable for cash or refundable.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button aria-controls="collapseTwo" aria-expanded="false" class="btn btn-link collapsed"
+                                    data-target="#collapseTwo" data-toggle="collapse" type="button">
+                                Can I bring my pet along?
+                            </button>
+                        </h2>
+                    </div>
+                    <div aria-labelledby="headingTwo" class="collapse" data-parent="#accordionExample" id="collapseTwo">
+                        <div class="card-body">
+                            Yes.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button aria-controls="collapseThree" aria-expanded="false" class="btn btn-link collapsed"
+                                    data-target="#collapseThree" data-toggle="collapse" type="button">
+                                What awards did you receive so far?
+                            </button>
+                        </h2>
+                    </div>
+                    <div aria-labelledby="headingThree" class="collapse" data-parent="#accordionExample"
+                         id="collapseThree">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingTwo">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Can I bring my pet along?
-        </button>
-      </h2>
-    </div>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-      <div class="card-body">
-        Yes.
-      </div>
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-header" id="headingThree">
-      <h2 class="mb-0">
-        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-          What awards did you receive so far?
-        </button>
-      </h2>
-    </div>
-    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-      <div class="card-body">
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-  </div>
 </div>
 <br>
-    <hr>
+<hr>
 <!--Address-->
 
 <div class="container" id="AU">
-  <div class="row">
-    <div class="col-sm">
-<br>
- <address class="contact">
-  <strong>Contact</strong><br><br>
-  Friseur Hans GmbH<br>
-  Tax number: 324324234<br>
-  Friseurgasse 5, 1020 Wien<br>
-  Phone: 0668/345435346<br>
-  Email: friseur.hans@f-hans.com<br>
-</address>
+    <div class="row">
+        <div class="col-sm">
+            <br>
+            <address class="contact">
+                <strong>Contact</strong><br><br>
+                Friseur Hans GmbH<br>
+                Tax number: 324324234<br>
+                Friseurgasse 5, 1020 Wien<br>
+                Phone: 0668/345435346<br>
+                Email: friseur.hans@f-hans.com<br>
+            </address>
+        </div>
+        <div class="col-sm">
+            <br>
+            <address class="navigation">
+                <strong>Navigation</strong><br><br>
+                <a href="#OS">Our Services</a><br>
+                <a href="#MAA">Make an appointment</a><br>
+                <a href="#FAQ">FAQ</a><br>
+                <a data-target="#exampleModalLong" data-toggle="modal" href="#">About us</a><br>
+            </address>
+        </div>
+    </div>
 </div>
-<div class="col-sm">
-<br>
-<address class="navigation">
-  <strong>Navigation</strong><br><br>
-  <a  href="#" >Our  Services</a><br>
-  <a  href="#">Make an appointment</a><br>
-  <a  href="#">FAQ</a><br>
-  <a  href="#" data-toggle="modal" data-target="#exampleModalLong">About us</a><br>
-</address>
-</div>
-</div>
-</div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script crossorigin="anonymous"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
 </html>
 
