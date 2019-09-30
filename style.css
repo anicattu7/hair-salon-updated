@@ -1,8 +1,12 @@
 .nav-link {
     color: black;
     font-size:10px;
-
 }
+
+nav.bg-light {
+    background-color: #d885bb;
+}
+
 .form-control{
     color: black;
     font-size:10px;
