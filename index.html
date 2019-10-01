@@ -9,14 +9,16 @@
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+    <link href="fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
     <title>Hair Salon</title>
 </head>
-<body>
+<body id="color">
 
 <!--navigation bar-->
 
 <nav class="navbar navbar-light" id="bg-light">
-    <a class="navbar-brand"><h2><i>Hairdresser Hans</i></h2></a>
+    <a class="navbar-brand"><h2><i><i class="fas fa-cut"></i>&nbsp Hairdresser Hans &nbsp<i class="fas fa-cut"></i></i>
+    </h2></a>
     <form class="form-inline">
         <ul class="nav justify-content-end">
             <li class="nav-item">
@@ -117,7 +119,8 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Styling</h5>
+                    <div class="float-left"><h5>Styling</h5></div>
+                    <div class="float-right"><i class="fas fa-cut"></i></div>
                 </div>
                 <img class="card-img-top" src="pic5.jpg">
 
@@ -127,7 +130,8 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Coloring</h5>
+                    <div class="float-left"><h5>Coloring</h5></div>
+                    <div class="float-right"><i class="fas fa-cut"></i></div>
                 </div>
                 <img class="card-img-top" src="pic6.jpg">
 
@@ -137,7 +141,8 @@
         <div class="col-md-4">
             <div class="card">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Haircuts</h5>
+                    <div class="float-left"><h5>Haircuts</h5></div>
+                    <div class="float-right"><i class="fas fa-cut"></i></div>
                 </div>
                 <img class="card-img-top" src="pic7.jpeg">
 
@@ -168,7 +173,7 @@
                                    type="text">
                         </div>
                         <div class="form-group">
-                            <input class="form-control" id="formGroupExampleInput2" placeholder="Date" type="text">
+                            <input class="form-control" id="formGroupExampleInput3" placeholder="Date" type="text">
                         </div>
                         <div class="form-group">
                             <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Other info (haircut wishes etc.)"

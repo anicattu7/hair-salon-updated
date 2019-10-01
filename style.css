@@ -1,3 +1,7 @@
+#color{
+    background-color:#dfcaeb;
+}
+
 .nav-link {
     color: black;
     font-size:10px;
@@ -49,7 +53,9 @@ img.card-img-top{
     height: 200px;
 }
 
-
+.card-header{
+    background-color:rgb(191, 167, 232);
+}
 
 
 
