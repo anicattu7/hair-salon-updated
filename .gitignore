@@ -1,4 +1,4 @@
-venv/
+/venv
 .idea
 pic1.jpg
 pic2.jpg
